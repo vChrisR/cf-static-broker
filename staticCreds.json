@@ -1,0 +1,8 @@
+{
+  "320fa3df-7373-48c5-81c4-516fdd0c099f": {
+    "host":"testhost.com",
+    "password":"randompassword",
+    "port":80,
+    "user":"lasttest"
+  }
+}
