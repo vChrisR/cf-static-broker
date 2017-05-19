@@ -1,0 +1,11 @@
+applications:
+- name: staticBroker
+  instances: 1
+  memory: 16M
+  disk_quota: 1024M
+  routes:
+  - route: staticbroker.pcfsystem.automate-it.lab
+  env:
+    BROKER_PASSWORD: broker
+    BROKER_USERNAME: broker
+  stack: cflinuxfs2
